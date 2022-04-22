@@ -2,12 +2,12 @@
 abilities:
   farming:
     bountiful_harvest:
-      name: Runsas Sato
-      desc: '{value}% mahdollisuus saada tupla pudotus\n&7  viljelykasveista.'
-      info: '{value}% 2x Pudotukset'
+      name: Runsas sato
+      desc: '{value}% mahdollisuus saada tuplatiputus\n&7  viljelykasveista.'
+      info: '{value}% 2X Tiputukset'
     farmer:
       name: Maanviljelijä
-      desc: 'Ansaitse {value}% enemmän viljelemällä\n&7  ansaittua XP:tä.'
+      desc: 'Ansaitse {value}% enemmän viljelemällä\n&7  kerättyä XP:tä.'
       info: '+{value}% XP'
     scythe_master:
       name: Viikatemestari
@@ -16,20 +16,19 @@ abilities:
     geneticist:
       name: Geneetikko
       desc: 'Lisää kasvipohjaisen ruoan\n&7  kylläisyyttä {value}:llä.'
-      info: '+{value} Kylläisyys'
+      info: '+{value} Kasviruoan kylläisyys'
     triple_harvest:
-      name: Kolminkertainen Sato
-      desc: '{value}% mahdollisuus saada tripla pudotus\n&7  viljelykasveista.'
-      info: '{value}% 3x Pudotukset'
+      name: Kolminkertainen sato
+      desc: '{value}% mahdollisuus saada triplatiputus\n&7  viljelykasveista.'
+      info: '{value}% 3X Tiputukset'
   foraging:
     lumberjack:
       name: Metsuri
-      desc: '{value}% mahdollisuus saada tupla pudotus\n&7  haloista.'
-      info: '{value}% 2x Pudotukset'
-    ##FIXME: Tää on nii väärin :DDD
+      desc: '{value}% mahdollisuus saada tuplatiputus\n&7  haloista.'
+      info: '{value}% 2X Tiputukset'
     forager:
-      name: Rehunhakija
-      desc: 'Ansaitse {value}% enemmän ravinnosta\n&7 s ansaittua XP:tä.'
+      name: Metsänhenki
+      desc: 'Ansaitse {value}% enemmän puutöillä\n&7 s kerättyä XP:tä.'
       info: '+{value}% XP'
     axe_master:
       name: Kirvesmestari
@@ -37,20 +36,20 @@ abilities:
       info: '+{value}% Kirveiden vahinko'
     valor:
       name: Urhoollisuus
-      desc: 'Antaa +{value} Vahvuutta kirvestä\n&7  kädessä pitäessä'
-      info: '+{value} Vahvuutta'
+      desc: 'Antaa +{value} vahvuutta kirvestä\n&7  kädessä pitäessä'
+      info: '+{value} Vahvuus'
     shredder:
       name: Silppuri
-      desc: '{value}% aiheuttaa tripla kestävyysvaurio\n&7  kirveillä.'
-      info: '{value}% 3x Kestävyysvaurio'
+      desc: '{value}% mahdollisuus aiheuttaa tripla\n&7  kestävyysvaurio kirveillä.'
+      info: '{value}% 3X Kestävyysvaurio'
   mining:
     lucky_miner:
       name: Onnekas Kaivosmies
-      desc: '{value}% mahdollisuus saada tupla pudotus\n&7  malmeista.'
-      info: '{value}% 2x Pudotukset'
+      desc: '{value}% mahdollisuus saada tuplatiputus\n&7  malmeista.'
+      info: '{value}% 2X Tiputukset'
     miner:
       name: Kaivosmies
-      desc: 'Ansaitse {value}% lisää kaivostoimilla\n&7  ansaittua XP:tä.'
+      desc: 'Ansaitse {value}% enemmän kaivostoimilla\n&7  kerättyä XP:tä.'
       info: '+{value}% XP'
     pick_master:
       name: Hakkumestari
@@ -58,28 +57,28 @@ abilities:
       info: '+{value}% Hakkuvahinko'
     stamina:
       name: Kestävyys
-      desc: 'Antaa +{value} Kovuutta hakkua\n&7  kädessä pitäessä'
+      desc: 'Antaa +{value} kovuutta hakkua\n&7  kädessä pitäessä'
       info: '+{value} Kovuutta'
     hardened_armor:
-      name: Karkaistu Panssari
+      name: Karkaistu panssari
       desc: '{value}% mahdollisuus mitätöidä kestävyys\n&7  vahinko panssareihin.'
-      info: '{value}% Ei kestävyyden menetystä'
+      info: '{value}% Mitätöi kestävyysvahinko'
   fishing:
     lucky_catch:
       name: Onnensaalis
-      desc: '{value}% mahdollisuus saada tupla pudotus\n&7  kalastamalla.'
-      info: '{value}% 2x Pudotukset'
+      desc: '{value}% mahdollisuus saada tuplatiputus\n&7  kalastamalla.'
+      info: '{value}% 2X Tiputukset'
     fisher:
       name: Kalastaja
-      desc: 'Ansaitse {value}% enemmän kalastuksella\n&7  ansaittua XP:tä'
+      desc: 'Ansaitse {value}% enemmän kalastuksella\n&7  kerättyä XP:tä'
       info: '+{value}% XP'
     treasure_hunter:
       name: Aarteenmetsästäjä
       desc: '{value}% suurempi mahdollisuus saada\n&7  harvinaista saalista kalastamalla.'
-      info: '+{value}% Harvinainen Saalis'
+      info: '+{value}% Harvinainen saalis'
     grappler:
       name: Koukuttaja
-      desc: 'Vedä olioita ongella {value}%\n&7  nopeammalla vauhdilla.'
+      desc: 'Vedä olioita ongella {value}%\n&7  kovemmalla vetovauhdilla.'
       info: '+{value}% Koukutusnopeus'
     epic_catch:
       name: Eeppinen saalis
@@ -89,31 +88,31 @@ abilities:
     metal_detector:
       name: Metallinpaljastaja
       desc: '{value}% suurempi mahdollisuus saada\n&7  harvinaista saalista kaivamalla.'
-      info: '+{value}% Harvinainen Saalis'
+      info: '+{value}% Harvinainen saalis'
     excavator:
       name: Kaivinkone
-      desc: 'Ansaitse {value}% enemmän kaivamisella\n&7  ansaittua XP:tä'
+      desc: 'Ansaitse {value}% enemmän kaivamisella\n&7  kerättyä XP:tä'
       info: '+{value}% XP'
     spade_master:
       name: Lapiomestari
       desc: 'Tee {value}% enemmän vahinkoa lapioilla.'
       info: '+{value}% Lapiovahinko'
     bigger_scoop:
-      name: Isompi Lapio
-      desc: '{value}% mahdollisuus saada tripla pudotus kaivamalla.'
-      info: '{value}% 3x Pudotukset'
+      name: Isompi lapio
+      desc: '{value}% mahdollisuus saada triplatiputus kaivamalla.'
+      info: '{value}% 3X Tiputukset'
     lucky_spades:
-      name: Onnekkaat Lapiot
+      name: Onnekkaat lapiot
       desc: '{value}% suurempi mahdollisuus saada\n&7  eeppistä saalista kaivamalla.'
       info: '+{value}% Eeppinen saalis'
   archery:
     crit_chance:
-      name: Kriittinen Mahdollisuus
+      name: Kriittinen mahdollisuus
       desc: '+{value}% mahdollisuus tehdä kriittinen isku.'
       info: '+{value}% Kriittinen isku'
     archer:
       name: Jousimies
-      desc: 'Ansaitse {value}% enemmän jousella\n&7  ansaittua XP:tä.'
+      desc: 'Ansaitse {value}% enemmän jousella\n&7  kerättyä XP:tä.'
       info: '+{value}% XP'
     bow_master:
       name: Jousimestari
@@ -131,135 +130,135 @@ abilities:
     shielding:
       name: Suojaus
       desc: 'Vähennä tulevaa vahinkoa {value}%\n&7  kyykyssä ollessasi.'
-      info: '-{value}% Tuleva Vahinko Kyykyssä'
+      info: '-{value}% Tuleva vahinko kyykyssä'
     defender:
       name: Puolustaja
-      desc: 'Ansaitse {value}% enemmän puolustuksella\n&7  ansaittua XP:tä.'
+      desc: 'Ansaitse {value}% enemmän puolustuksella\n&7  kerättyä XP:tä.'
       info: '+{value}% XP'
     mob_master:
       name: Monsterimestari
       desc: 'Vähennä monstereilta tulevaa vahinkoa {value}%'
-      info: '-{value}% Mob Dmg'
+      info: '-{value}% Monsterivahinko'
     immunity:
       name: Immuniteetti
       desc: '{value}% mahdollisuus täydellisesti kumota\n&7  vastustajan isku.'
       info: '{value}% Immuniteetti'
     no_debuff:
-      name: Ei Magiaa
-      desc: '{value}% mahdollisuus kumota haitallisen\n&7  haitallisen taikajuoman vaikutus.'
-      info: '{value}% Ei Magiaa'
+      name: Milla Magia
+      desc: '{value}% mahdollisuus kumota haitallisen\n&7  taikajuoman vaikutus.'
+      info: '{value}% Milla Magia'
   fighting:
     crit_damage:
-      name: Kriittinen Isku
+      name: Kriittinen isku
       desc: 'Lisää kriittisen iskun mahdollisuutta {value}%'
-      info: '+{value}% Kriittinen Isku'
+      info: '+{value}% Kriittinen isku'
     fighter:
       name: Taistelija
-      desc: 'Ansaitse {value}% enemmän taistelemalla\n&7  ansaittua XP:tä.'
+      desc: 'Ansaitse {value}% enemmän taistelemalla\n&7  kerättyä XP:tä.'
       info: '+{value}% XP'
     sword_master:
       name: Miekkamestari
       desc: 'Tee {value}% enemmän vahinkoa miekoilla.'
       info: '+{value}% Miekkavahinko'
     first_strike:
-      name: Ensimmäinen Isku
+      name: Ensimmäinen isku
       desc: 'Tee {value}% enemmän vahinkoa ensimmäisellä iskulla.'
       info: '+{value}% Vahinkoa ensimmäisellä iskulla'
-      dealt: '&cEnsimmäinen Isku Osuttu!'
+      dealt: '&cEnsimmäinen isku osuttu!'
     bleed:
       name: Verenvuoto
-      desc: '{value}% mahdollisuus saada vihollinen vuotamaan\n&7  verta 3 kertaa, joista {value_2} vahinkoa per kerta.'
-      info: '{value}% Mahdollisuus, {value_2} Vahinko'
+      desc: '{value}% mahdollisuus saada vihollinen vuotamaan\n&7  verta 3 kertaa, joista aiheutuu\n&7  {value_2} vahinkoa per kerta.'
+      info: '{value}% mahdollisuus, {value_2} vahinko'
       enemy_bleeding: '&cVastustaja vuotaa verta!'
       self_bleeding: '&cSinä vuodat verta!'
-      stop: '&fVerenvuotosi loppunut'
+      stop: '&fVerenvuotosi on loppunut'
   endurance:
     anti_hunger:
       name: Ei nälkää
       desc: '{value}% mahdollisuus nälän loppumiselle.'
-      info: '{value}% Ei näläntunnetta'
+      info: '{value}% Ei nälkää'
     runner:
       name: Juoksija
-      desc: 'Ansaitse {value} enemmän kestävyydellä\n&7  ansaittua XP:tä.'
+      desc: 'Ansaitse {value} enemmän kestävyydellä\n&7  kerättyä XP:tä.'
       info: '+{value}% XP'
     golden_heal:
-      name: Kultainen Parannus
+      name: Kultainen parannus
       desc: 'Kasvattaa regeneraatio\n&7  vaikutusta {value}%'
       info: '+{value}% Regeneraatio vaikutus'
     recovery:
       name: Elpyminen
       desc: 'Lisää luonnollista regeneraatiokykyä {value}%\n&7  kun elämäpisteitä vähemmän kuin 0.5.'
-      info: '+{value}% Elpyminen Matalilla Elämäpisteillä'
+      info: '+{value}% Elpyminen matalilla elämäpisteillä'
     meal_steal:
       name: Ruokavaras
       desc: '{value}% mahdollisuus viedä 1 vastustajan\n&7  ruokapalkki hyökättäessä viholliseen.'
       info: '{value}% Ruokavaras'
   agility:
     light_fall:
-      name: Kevyt Pudotus
+      name: Kevyt pudotus
       desc: 'Vähentää kaikkea putoamisvahinkoa {value}%'
       info: '-{value}% Putoamisvahinko'
     jumper:
       name: Hyppijä
-      desc: 'Ansaitse {value}% enemmän ketteryydellä\n&7  ansaittua XP:tä.'
+      desc: 'Ansaitse {value}% enemmän ketteryydellä\n&7  kerättyä XP:tä.'
       info: '+{value}% XP'
     sugar_rush:
       name: Sokerihumala
       desc: 'Hyppytehostus vaikutus kestää\n&7 {value}% pidempään.'
-      info: '{value}% Pidempi Hyppytehostus'
+      info: '{value}% Pidempi hyppytehostus vaikutus'
     fleeting:
-      name: Ohikiitävä
+      name: Silmienvilinä
       desc: 'Ansaitse +{value}% liikkumisnopeutta kun elämäpisteitä\n&7  jäljellä alle 20%.'
       info: '+{value}% Nopeus'
-      start: '&fSait ohikiitävän nopeusvaikutuksen! &7(+{value}% Nopeutta)'
-      end: '&7Ohikiitävä nopeusvaikutus on ohi'
+      start: '&fElämäsi vilisee silmissä ja\n&7  sait nopeusvaikutuksen! &7(+{value}% nopeutta)'
+      end: '&7Elämäsi palaa takaisin raiteille.\n&7  Nopeusvaikutus on ohi'
     thunder_fall:
       name: Tippumisvahinko
-      desc: 'Ollessasi kyykyssä tiputuksen aikana\n&7  sinulla on {value}% mahdollisuus tehdä {value_2}% odotesta vahingosta\n&7  monstereihin 3palikan alueella'
-      info: '{value}% Mahdollisuus, {value_2}% Vahinko'
+      desc: 'Ollessasi kyykyssä tiputuksen aikana\n&7  sinulla on {value}% mahdollisuus tehdä {value_2}% odotetusta vahingosta\n&7  monstereihin 3palikan alueella.'
+      info: '{value}% mahdollisuus, {value_2}% vahinko'
   alchemy:
     alchemist:
       name: Alkemisti
       desc: 'Keittämissäsi taikajuomissa on {value}%\n&7  pidempi vaikutusaika.'
-      info: '+{value}% Taikajuoman Vaikutusaika'
+      info: '+{value}% Taikajuoman vaikutusaika'
       lore: '&a(+{duration})'
     brewer:
       name: Panimo
-      desc: 'Ansaitse {value}% alkemialla\n&7  ansaittua XP:tä.'
+      desc: 'Ansaitse {value}% enemmän taikajuomilla\n&7  kerättyä XP:tä.'
       info: '+{value}% XP'
     splasher:
       name: Roiskija
       desc: 'Heittämäsi roiskahtavat taikajuomat kestävät {value}%\n&7  pidempään jokaisella vaikutuksen saaneella pelaajalla.'
-      info: '+{value}% Duration/Player'
+      info: '+{value}% kestoa/pelaaja'
     lingering:
       name: Viipyvyys
-      desc: 'Viipyvät taikajuomat häviävät {value}%\n&7  hitaammin ja kestää {value_2}% pidempään vaikutuksen saaneilla vihollisilla.'
-      info: '-{value}% Luonnollisuus, -{value_2}% Vihollisen rappeutuminen'
+      desc: 'Viipyvät taikajuomat häviävät {value}%\n&7  hitaammin ja rappeutuu {value_2}% vähemmän vaikutuksen saaneilla vihollisilla.'
+      info: '-{value}% luonnllinen häviäminen, -{value_2}% vihollisen rappeutuminen'
     wise_effect:
-      name: Viisas Vaikutus
-      desc: 'Ansaitse {value} Viisautta jokaisesta uniikista\n&7  taikajuoman vaikutuksesta.'
-      info: '+{value} Wisdom/Effect'
+      name: Viisas vaikutus
+      desc: 'Ansaitse {value} viisautta jokaisesta uniikista\n&7  taikajuoman vaikutuksesta.'
+      info: '+{value} viisautta/vaikutus'
   enchanting:
     xp_convert:
       name: XP Muunnin
-      desc: 'Ansaitse 1 Minecraft kokemuspiste jokaisesta {value}\n&7  saadusta Taito XP:stä.'
-      info: '1 EXP/{value} Taito XP'
+      desc: 'Ansaitse 1 Minecraft kokemuspiste jokaisesta {value}\n&7  saadusta taito XP:stä.'
+      info: '1 EXP/{value} taito XP'
     enchanter:
       name: Lumoaja
-      desc: 'Ansaitse {value}% enemmän lumoamalla\n&7  ansaittua XP:tä.'
+      desc: 'Ansaitse {value}% enemmän lumoamalla\n&7  kerättyä XP:tä.'
       info: '+{value}% XP'
     xp_warrior:
       name: XP Sotilas
       desc: 'Tappamillasi monstereilla on {value}% mahdollisuus\n&7  tiputtaa tupla kokemuspisteet.'
-      info: '{value}% 2x Monsteri XP'
+      info: '{value}% 2X Monsteri XP'
     enchanted_strength:
       name: Lumottu Voima
-      desc: 'Ansaitse {value} Voimaa jokaisesta uniikista\n&7  lumouksesta kädessä olevassa tavarassasi.'
-      info: '{value} Strength/Enchant'
+      desc: 'Ansaitse {value} voimaa jokaisesta uniikista\n&7  lumouksesta kädessä olevassa tavarassasi.'
+      info: '{value} voimaa/uniikki lumous'
     lucky_table:
-      name: Onnekas Pöytä
-      desc: 'Tavaroilla joita lumoat lumoamispöydällä\n&7  on {value}% mahdollisuus parannettuun\n&7  tasoon, mikäli kyseessä ei ole täysi taso.'
-      info: '{value}% Lumous Kehitys Mahdollisuus'
+      name: Onnekas pöytä
+      desc: 'Tavaroilla joita lumoat lumoamispöydällä\n&7  on {value}% mahdollisuus parannettuun\n&7  tasoon, täyteen tasoon asti.'
+      info: '{value}% lumouksen parannus mahdollisuus'
   healing:
     life_essence:
       name: Elämänedellytys
@@ -267,42 +266,42 @@ abilities:
       info: '+{value}% Parantava taikajuoma'
     healer:
       name: Parantaja
-      desc: Ansaitse {value}% enemmän parantamalla\n&7  ansaittua XP:tä.
+      desc: Ansaitse {value}% enemmän parantamalla\n&7  kerättyä XP:tä.
       info: '+{value}% XP'
     life_steal:
       name: Elämävaras
-      desc: Paranna {value}% of the max HP of hostile mobs\n&7  and players you kill.
-      info: 'Steal {value}% HP'
+      desc: Parannu {value}% monstereiden täysistä elämäpisteistä\n&7  ja pelaajista joita tapat.
+      info: 'Varasta {value}% HP:sta'
     golden_heart:
-      name: Golden Heart
-      desc: Damage done to your absorption hearts is\n&7  reduced by {value}%
-      info: '-{value}% Absorption Dmg'
+      name: Kultainen sydän
+      desc: Laskee lisäelämiisi tehtyä vahinkoa {value}%
+      info: '-{value}% lisäelämien vahinko'
     revival:
-      name: Revival
-      desc: Gain &c+{value} Health &7and &6+{value_2} Regeneration\n&7  for 30 seconds after respawning.
-      info: '+{value} Health, +{value_2} Regen'
-      message: '&fYou gained a revival bonus for 30 seconds! &f(&c+{value} Health, &6+{value_2} Regeneration&f)'
+      name: Uudellensyntymä
+      desc: Ansaitse &c+{value} elämäpistettä &7ja &6+{value_2} regeneraatiota\n&7  30s ajaksi uudelleensyntymisen jälkeen.
+      info: '+{value} elämäpistettä, +{value_2} regeneraatio'
+      message: '&fSais uudelleensyntymis bonuksen 30s ajaksi! &f(&c+{value} elämäpistettä, &6+{value_2} regeneraatio&f)'
   forging:
     disenchanter:
-      name: Disenchanter
-      desc: Gain {value}% more experience when disenchanting\n&7  items using a grindstone.
-      info: '+{value}% Grindstone EXP'
+      name: Lumouksen purkaja
+      desc: Ansaitse {value}% enemmän hiomakivellä\n&7  puretuista lumouksista saatavaa EXP:tä.
+      info: '+{value}% hiomakivi EXP'
     forger:
-      name: Forger
-      desc: Ansaitse {value}% enemmän ravinnosta\n&7  ansaittua XP:tä.
+      name: Takoja
+      desc: Ansaitse {value}% enemmän sepän hommilla\n&7  kerättyä XP:tä.
       info: '+{value}% XP'
     repairing:
-      name: Repairing
-      desc: Repairing items in an anvil using the raw\n&7  material the item was made from repairs\n&7  {value}% more durability.
-      info: '+{value}% Anvil Repair'
+      name: Korjaaja
+      desc: Korjaamalla tavaroita alasimella käyttäen\n&7  raakoja materiaaleja joista tavara on\n&7  tehty antaa {value}% enemmän kestävyyttä.
+      info: '+{value}% alasin korjaus'
     anvil_master:
-      name: Anvil Master
-      desc: Increases the maximum repair cost of an anvil\n&7  before it is too expensive to {value} experience.
-      info: '{value} Max Cost'
+      name: Alasinmestari
+      desc: Nostaa korkeinta kokemuspistehintaa alasimella\n&7  korjatessa {value}:lla kunnes siitä tulee taas liian kallis.
+      info: '{value} maksimihinta'
     skill_mender:
       name: Skill Mender
-      desc: Gaining skill XP has a {value}% chance to repair\n&7  a held item or worn armor piece with the Mending\n&7  enchantment by 1 durability per 2 skill XP.
-      info: '{value}% Mend Chance'
+      desc: Saamalla taito XP:tä on sinulla {value}% mahdollisuus\n&7  korjata tavara tai kulunut haarniska, jossa on\n&7  parsinta lumous. 1 kestävyys / 2 taito XP.
+      info: '{value}% korjausmahdollisuus'
 acf:
   core:
     permission_denied: "&cI'm sorry, but you do not have permission to perform this command."
@@ -353,7 +352,7 @@ action_bar:
   boss_bar_xp: '&6{skill} {level} &7({current_xp}/{level_xp} {xp_unit})'
   boss_bar_maxed: '&6{skill} {level} &7(MAXED)'
 commands:
-  prefix: '&8[&bSkills&8]&r '
+  prefix: '&8[&bTaidot&8]&r '
   armor:
     modifier:
       add:
@@ -648,7 +647,7 @@ mana_abilities:
     end: '&7Speed Mine has worn off'
   absorption:
     name: Absorption
-    desc: 'Incoming damage will decrease mana\n&7  by 2x Minecraft damage instead of your\n&7  health for {value} seconds. Mana will not\n&7  regenerate while Absorption is active.\n  &e[Left click shield and take damage to activate]'
+    desc: 'Incoming damage will decrease mana\n&7  by 2X Minecraft damage instead of your\n&7  health for {value} seconds. Mana will not\n&7  regenerate while Absorption is active.\n  &e[Left click shield and take damage to activate]'
     raise: '&7You raise your shield'
     lower: '&7You lower your shield'
     start: '&6Absorption Activated! &7(-{mana} {mana_unit})'
@@ -752,7 +751,7 @@ stats:
     symbol: '❥'
   luck:
     name: Luck
-    desc: '&7Luck increases your chances of getting\n&7Harvinainen Saalis from mobs, fishing, and more'
+    desc: '&7Luck increases your chances of getting\n&7Harvinainen saalis from mobs, fishing, and more'
     color: '&2'
     symbol: '☘'
   wisdom:
