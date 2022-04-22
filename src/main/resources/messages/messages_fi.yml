@@ -1,0 +1,772 @@
+# Aurelium Skills message file
+abilities:
+  farming:
+    bountiful_harvest:
+      name: Runsas Sato
+      desc: '{value}% mahdollisuus saada tupla pudotus\n&7  viljelykasveista.'
+      info: '{value}% 2x Pudotukset'
+    farmer:
+      name: Maanviljelijä
+      desc: 'Ansaitse {value}% enemmän viljelemällä\n&7  ansaittua XP:tä.'
+      info: '+{value}% XP'
+    scythe_master:
+      name: Viikatemestari
+      desc: 'Lisää kuokkien aiheuttamaa vahinkoa {value}%'
+      info: '+{value}% Kuokan vahinko'
+    geneticist:
+      name: Geneetikko
+      desc: 'Lisää kasvipohjaisen ruoan\n&7  kylläisyyttä {value}:llä.'
+      info: '+{value} Kylläisyys'
+    triple_harvest:
+      name: Kolminkertainen Sato
+      desc: '{value}% mahdollisuus saada tripla pudotus\n&7  viljelykasveista.'
+      info: '{value}% 3x Pudotukset'
+  foraging:
+    lumberjack:
+      name: Metsuri
+      desc: '{value}% mahdollisuus saada tupla pudotus\n&7  haloista.'
+      info: '{value}% 2x Pudotukset'
+    ##FIXME: Tää on nii väärin :DDD
+    forager:
+      name: Rehunhakija
+      desc: 'Ansaitse {value}% enemmän ravinnosta\n&7 s ansaittua XP:tä.'
+      info: '+{value}% XP'
+    axe_master:
+      name: Kirvesmestari
+      desc: 'Lisää kirveiden aiheuttamaa vahinkoa {value}%'
+      info: '+{value}% Kirveiden vahinko'
+    valor:
+      name: Urhoollisuus
+      desc: 'Antaa +{value} Vahvuutta kirvestä\n&7  kädessä pitäessä'
+      info: '+{value} Vahvuutta'
+    shredder:
+      name: Silppuri
+      desc: '{value}% aiheuttaa tripla kestävyysvaurio\n&7  kirveillä.'
+      info: '{value}% 3x Kestävyysvaurio'
+  mining:
+    lucky_miner:
+      name: Onnekas Kaivosmies
+      desc: '{value}% mahdollisuus saada tupla pudotus\n&7  malmeista.'
+      info: '{value}% 2x Pudotukset'
+    miner:
+      name: Kaivosmies
+      desc: 'Ansaitse {value}% lisää kaivostoimilla\n&7  ansaittua XP:tä.'
+      info: '+{value}% XP'
+    pick_master:
+      name: Hakkumestari
+      desc: 'Tee {value}% enemmän vahinkoa hakuilla.'
+      info: '+{value}% Hakkuvahinko'
+    stamina:
+      name: Kestävyys
+      desc: 'Antaa +{value} Kovuutta hakkua\n&7  kädessä pitäessä'
+      info: '+{value} Kovuutta'
+    hardened_armor:
+      name: Karkaistu Panssari
+      desc: '{value}% mahdollisuus mitätöidä kestävyys\n&7  vahinko panssareihin.'
+      info: '{value}% Ei kestävyyden menetystä'
+  fishing:
+    lucky_catch:
+      name: Onnensaalis
+      desc: '{value}% mahdollisuus saada tupla pudotus\n&7  kalastamalla.'
+      info: '{value}% 2x Pudotukset'
+    fisher:
+      name: Kalastaja
+      desc: 'Ansaitse {value}% enemmän kalastuksella\n&7  ansaittua XP:tä'
+      info: '+{value}% XP'
+    treasure_hunter:
+      name: Aarteenmetsästäjä
+      desc: '{value}% suurempi mahdollisuus saada\n&7  harvinaista saalista kalastamalla.'
+      info: '+{value}% Harvinainen Saalis'
+    grappler:
+      name: Koukuttaja
+      desc: 'Vedä olioita ongella {value}%\n&7  nopeammalla vauhdilla.'
+      info: '+{value}% Koukutusnopeus'
+    epic_catch:
+      name: Eeppinen saalis
+      desc: '{value}% suurempi mahdollisuus saada\n&7  eeppistä saalista kalastamalla.'
+      info: '+{value}% Eeppinen saalis'
+  excavation:
+    metal_detector:
+      name: Metallinpaljastaja
+      desc: '{value}% suurempi mahdollisuus saada\n&7  harvinaista saalista kaivamalla.'
+      info: '+{value}% Harvinainen Saalis'
+    excavator:
+      name: Kaivinkone
+      desc: 'Ansaitse {value}% enemmän kaivamisella\n&7  ansaittua XP:tä'
+      info: '+{value}% XP'
+    spade_master:
+      name: Lapiomestari
+      desc: 'Tee {value}% enemmän vahinkoa lapioilla.'
+      info: '+{value}% Lapiovahinko'
+    bigger_scoop:
+      name: Isompi Lapio
+      desc: '{value}% mahdollisuus saada tripla pudotus kaivamalla.'
+      info: '{value}% 3x Pudotukset'
+    lucky_spades:
+      name: Onnekkaat Lapiot
+      desc: '{value}% suurempi mahdollisuus saada\n&7  eeppistä saalista kaivamalla.'
+      info: '+{value}% Eeppinen saalis'
+  archery:
+    crit_chance:
+      name: Kriittinen Mahdollisuus
+      desc: '+{value}% mahdollisuus tehdä kriittinen isku.'
+      info: '+{value}% Kriittinen isku'
+    archer:
+      name: Jousimies
+      desc: 'Ansaitse {value}% enemmän jousella\n&7  ansaittua XP:tä.'
+      info: '+{value}% XP'
+    bow_master:
+      name: Jousimestari
+      desc: 'Tee {value}% enemmän vahinkoa jousilla.'
+      info: '+{value}% Jousivahinko'
+    piercing:
+      name: Lävistys
+      desc: '{value}% mahdollisuus nuolien\n&7  lävistykseen monstereita ammuttaessa.'
+      info: '{value}% Lävistysmahdollisuus'
+    stun:
+      name: Tainnutus
+      desc: '{value}% mahdollisuus hidastaa vastustajan\n&7  liikkumisnopeutta 20% 2 sekunnin ajaksi.'
+      info: '{value}% Tainnutusmahdollisuus'
+  defense:
+    shielding:
+      name: Suojaus
+      desc: 'Vähennä tulevaa vahinkoa {value}%\n&7  kyykyssä ollessasi.'
+      info: '-{value}% Tuleva Vahinko Kyykyssä'
+    defender:
+      name: Puolustaja
+      desc: 'Ansaitse {value}% enemmän puolustuksella\n&7  ansaittua XP:tä.'
+      info: '+{value}% XP'
+    mob_master:
+      name: Monsterimestari
+      desc: 'Vähennä monstereilta tulevaa vahinkoa {value}%'
+      info: '-{value}% Mob Dmg'
+    immunity:
+      name: Immuniteetti
+      desc: '{value}% mahdollisuus täydellisesti kumota\n&7  vastustajan isku.'
+      info: '{value}% Immuniteetti'
+    no_debuff:
+      name: Ei Magiaa
+      desc: '{value}% mahdollisuus kumota haitallisen\n&7  haitallisen taikajuoman vaikutus.'
+      info: '{value}% Ei Magiaa'
+  fighting:
+    crit_damage:
+      name: Kriittinen Isku
+      desc: 'Lisää kriittisen iskun mahdollisuutta {value}%'
+      info: '+{value}% Kriittinen Isku'
+    fighter:
+      name: Taistelija
+      desc: 'Ansaitse {value}% enemmän taistelemalla\n&7  ansaittua XP:tä.'
+      info: '+{value}% XP'
+    sword_master:
+      name: Miekkamestari
+      desc: 'Tee {value}% enemmän vahinkoa miekoilla.'
+      info: '+{value}% Miekkavahinko'
+    first_strike:
+      name: Ensimmäinen Isku
+      desc: 'Tee {value}% enemmän vahinkoa ensimmäisellä iskulla.'
+      info: '+{value}% Vahinkoa ensimmäisellä iskulla'
+      dealt: '&cEnsimmäinen Isku Osuttu!'
+    bleed:
+      name: Verenvuoto
+      desc: '{value}% mahdollisuus saada vihollinen vuotamaan\n&7  verta 3 kertaa, joista {value_2} vahinkoa per kerta.'
+      info: '{value}% Mahdollisuus, {value_2} Vahinko'
+      enemy_bleeding: '&cVastustaja vuotaa verta!'
+      self_bleeding: '&cSinä vuodat verta!'
+      stop: '&fVerenvuotosi loppunut'
+  endurance:
+    anti_hunger:
+      name: Ei nälkää
+      desc: '{value}% mahdollisuus nälän loppumiselle.'
+      info: '{value}% Ei näläntunnetta'
+    runner:
+      name: Juoksija
+      desc: 'Ansaitse {value} enemmän kestävyydellä\n&7  ansaittua XP:tä.'
+      info: '+{value}% XP'
+    golden_heal:
+      name: Kultainen Parannus
+      desc: 'Kasvattaa regeneraatio\n&7  vaikutusta {value}%'
+      info: '+{value}% Regeneraatio vaikutus'
+    recovery:
+      name: Elpyminen
+      desc: 'Lisää luonnollista regeneraatiokykyä {value}%\n&7  kun elämäpisteitä vähemmän kuin 0.5.'
+      info: '+{value}% Elpyminen Matalilla Elämäpisteillä'
+    meal_steal:
+      name: Ruokavaras
+      desc: '{value}% mahdollisuus viedä 1 vastustajan\n&7  ruokapalkki hyökättäessä viholliseen.'
+      info: '{value}% Ruokavaras'
+  agility:
+    light_fall:
+      name: Kevyt Pudotus
+      desc: 'Vähentää kaikkea putoamisvahinkoa {value}%'
+      info: '-{value}% Putoamisvahinko'
+    jumper:
+      name: Hyppijä
+      desc: 'Ansaitse {value}% enemmän ketteryydellä\n&7  ansaittua XP:tä.'
+      info: '+{value}% XP'
+    sugar_rush:
+      name: Sokerihumala
+      desc: 'Hyppytehostus vaikutus kestää\n&7 {value}% pidempään.'
+      info: '{value}% Pidempi Hyppytehostus'
+    fleeting:
+      name: Ohikiitävä
+      desc: 'Ansaitse +{value}% liikkumisnopeutta kun elämäpisteitä\n&7  jäljellä alle 20%.'
+      info: '+{value}% Nopeus'
+      start: '&fSait ohikiitävän nopeusvaikutuksen! &7(+{value}% Nopeutta)'
+      end: '&7Ohikiitävä nopeusvaikutus on ohi'
+    thunder_fall:
+      name: Tippumisvahinko
+      desc: 'Ollessasi kyykyssä tiputuksen aikana\n&7  sinulla on {value}% mahdollisuus tehdä {value_2}% odotesta vahingosta\n&7  monstereihin 3palikan alueella'
+      info: '{value}% Mahdollisuus, {value_2}% Vahinko'
+  alchemy:
+    alchemist:
+      name: Alkemisti
+      desc: 'Keittämissäsi taikajuomissa on {value}%\n&7  pidempi vaikutusaika.'
+      info: '+{value}% Taikajuoman Vaikutusaika'
+      lore: '&a(+{duration})'
+    brewer:
+      name: Panimo
+      desc: 'Ansaitse {value}% alkemialla\n&7  ansaittua XP:tä.'
+      info: '+{value}% XP'
+    splasher:
+      name: Roiskija
+      desc: 'Heittämäsi roiskahtavat taikajuomat kestävät {value}%\n&7  pidempään jokaisella vaikutuksen saaneella pelaajalla.'
+      info: '+{value}% Duration/Player'
+    lingering:
+      name: Viipyvyys
+      desc: 'Viipyvät taikajuomat häviävät {value}%\n&7  hitaammin ja kestää {value_2}% pidempään vaikutuksen saaneilla vihollisilla.'
+      info: '-{value}% Luonnollisuus, -{value_2}% Vihollisen rappeutuminen'
+    wise_effect:
+      name: Viisas Vaikutus
+      desc: 'Ansaitse {value} Viisautta jokaisesta uniikista\n&7  taikajuoman vaikutuksesta.'
+      info: '+{value} Wisdom/Effect'
+  enchanting:
+    xp_convert:
+      name: XP Muunnin
+      desc: 'Ansaitse 1 Minecraft kokemuspiste jokaisesta {value}\n&7  saadusta Taito XP:stä.'
+      info: '1 EXP/{value} Taito XP'
+    enchanter:
+      name: Lumoaja
+      desc: 'Ansaitse {value}% enemmän lumoamalla\n&7  ansaittua XP:tä.'
+      info: '+{value}% XP'
+    xp_warrior:
+      name: XP Sotilas
+      desc: 'Tappamillasi monstereilla on {value}% mahdollisuus\n&7  tiputtaa tupla kokemuspisteet.'
+      info: '{value}% 2x Monsteri XP'
+    enchanted_strength:
+      name: Lumottu Voima
+      desc: 'Ansaitse {value} Voimaa jokaisesta uniikista\n&7  lumouksesta kädessä olevassa tavarassasi.'
+      info: '{value} Strength/Enchant'
+    lucky_table:
+      name: Onnekas Pöytä
+      desc: 'Tavaroilla joita lumoat lumoamispöydällä\n&7  on {value}% mahdollisuus parannettuun\n&7  tasoon, mikäli kyseessä ei ole täysi taso.'
+      info: '{value}% Lumous Kehitys Mahdollisuus'
+  healing:
+    life_essence:
+      name: Elämänedellytys
+      desc: Parantava taikajuoma parantaa {value}% enemmän.
+      info: '+{value}% Parantava taikajuoma'
+    healer:
+      name: Parantaja
+      desc: Ansaitse {value}% enemmän parantamalla\n&7  ansaittua XP:tä.
+      info: '+{value}% XP'
+    life_steal:
+      name: Elämävaras
+      desc: Paranna {value}% of the max HP of hostile mobs\n&7  and players you kill.
+      info: 'Steal {value}% HP'
+    golden_heart:
+      name: Golden Heart
+      desc: Damage done to your absorption hearts is\n&7  reduced by {value}%
+      info: '-{value}% Absorption Dmg'
+    revival:
+      name: Revival
+      desc: Gain &c+{value} Health &7and &6+{value_2} Regeneration\n&7  for 30 seconds after respawning.
+      info: '+{value} Health, +{value_2} Regen'
+      message: '&fYou gained a revival bonus for 30 seconds! &f(&c+{value} Health, &6+{value_2} Regeneration&f)'
+  forging:
+    disenchanter:
+      name: Disenchanter
+      desc: Gain {value}% more experience when disenchanting\n&7  items using a grindstone.
+      info: '+{value}% Grindstone EXP'
+    forger:
+      name: Forger
+      desc: Ansaitse {value}% enemmän ravinnosta\n&7  ansaittua XP:tä.
+      info: '+{value}% XP'
+    repairing:
+      name: Repairing
+      desc: Repairing items in an anvil using the raw\n&7  material the item was made from repairs\n&7  {value}% more durability.
+      info: '+{value}% Anvil Repair'
+    anvil_master:
+      name: Anvil Master
+      desc: Increases the maximum repair cost of an anvil\n&7  before it is too expensive to {value} experience.
+      info: '{value} Max Cost'
+    skill_mender:
+      name: Skill Mender
+      desc: Gaining skill XP has a {value}% chance to repair\n&7  a held item or worn armor piece with the Mending\n&7  enchantment by 1 durability per 2 skill XP.
+      info: '{value}% Mend Chance'
+acf:
+  core:
+    permission_denied: "&cI'm sorry, but you do not have permission to perform this command."
+    permission_denied_parameter: "&cI'm sorry, but you do not have permission to perform this command."
+    error_generic_logged: '&cAn error occurred. This problem has been logged. Sorry for the inconvenience.'
+    unknown_command: '&cUnknown Command, please type &e/sk help'
+    invalid_syntax: '&eUsage: &e{command} &a{syntax}'
+    error_prefix: '&cError: {message}'
+    error_performing_command: "&cI'm sorry, but there was an error performing this command."
+    info_message: '{message}'
+    please_specify_one_of: '&cError: Please specify one of (&e{valid}&c)'
+    must_be_a_number: '&cError: {num} must be a number.'
+    must_be_min_length: '&cError: Must be at least {min} characters long.'
+    must_be_max_length: '&cError: Must be at most {max} characters long.'
+    please_specify_at_most: '&cError: Please specify a value at most {max}.'
+    please_specify_at_least: '&cError: Please specify a value at least {min}.'
+    not_allowed_on_console: '&cError: Console may not execute this command.'
+    could_not_find_player: '&cError: Could not find a player by the name: &e{search}'
+    no_command_matched_search: '&cNo command matched &e{search}.'
+    help_page_information: '&b - Showing page &a{page} &bof &a{totalpages} &b(&e{results}&b results).'
+    help_no_results: '&bError: No more results.'
+    help_header: '&e=== &bShowing help for &a{commandprefix}{command}&e ==='
+    help_format: '&b{commandprefix}{command} &a{parameters} &e{separator} {description}'
+    help_detailed_header: '&e=== &bShowing detailed help for &a{commandprefix}{command}&e ==='
+    help_detailed_command_format: '&b{command} &a{parameters} &e{separator} {description}'
+    help_detailed_parameter_format: '&a{syntaxorname}: &e{description}'
+    help_search_header: '&e=== &bSearch results for &a{commandprefix}{command} {search}&e ==='
+  minecraft:
+    invalid_world: '&cError: That world does not exist.'
+    you_must_be_holding_item: '&cError: You must be holding an item in your main hand.'
+    player_is_vanish_confirm: '&eWarning: &a{vanished} &eis vanished. Do not blow their cover!\n&eTo confirm your action add &a:confirm &eto the end of their name.\n&eEx: {vanished}:confirm'
+    username_too_short: '&cError: Username too short, must be at least three characters.'
+    is_not_a_valid_name: '&cError: &e{name} &cis not a valid username.'
+    multiple_players_match: '&cError: Multiple players matched &b{search} &e({all})&c, please be more specific.'
+    no_player_found_server: '&cNo player matching &e{search} &cis connected to this server.'
+    no_player_found_offline: '&cNo player matching &e{search}&c could be found.'
+    no_player_found: '&cNo player matching &e{search}&c could be found.'
+    location_please_specify_world: '&cError: Please specify world. Example: &eworld:x,y,z.'
+    location_please_specify_xyz: '&cError: Please specify the coordinates x, y, and z. Example: &eworld:x,y,z.'
+    location_console_not_relative: '&cError: Console may not use relative coordinates for location.'
+action_bar:
+  idle: '&c{hp}/{max_hp}❤                 &b{mana}/{max_mana} {mana_unit}'
+  xp: '&c{hp}/{max_hp}❤  &6+{xp_gained} {skill} {xp_unit} &7({current_xp}/{level_xp} {xp_unit})  &b{mana}/{max_mana} {mana_unit}'
+  xp_removed: '&c{hp}/{max_hp}❤  &6-{xp_removed} {skill} {xp_unit} &7({current_xp}/{level_xp} {xp_unit})  &b{mana}/{max_mana} {mana_unit}'
+  maxed: '&c{hp}/{max_hp}❤  &6+{xp_gained} {skill} {xp_unit} &7(MAXED)  &b{mana}/{max_mana} {mana_unit}'
+  maxed_removed: '&c{hp}/{max_hp}❤  &6-{xp_removed} {skill} {xp_unit} &7(MAXED)  &b{mana}/{max_mana} {mana_unit}'
+  ability: '{message}'
+  boss_bar_xp: '&6{skill} {level} &7({current_xp}/{level_xp} {xp_unit})'
+  boss_bar_maxed: '&6{skill} {level} &7(MAXED)'
+commands:
+  prefix: '&8[&bSkills&8]&r '
+  armor:
+    modifier:
+      add:
+        added: '{color}{stat} &7modifier with level &b{value} &7was added to your item'
+        already_exists: '&eAn armor modifier with stat {color}{stat} &ealready exists on your armor! Remove it first with /sk armor modifier remove'
+        lore: '&7{stat}: {color}+{value}'
+        lore_subtract: '&7{stat}: {color}-{value}'
+      remove:
+        does_not_exist: '&eYour item does not have a {color}{stat} &emodifier!'
+        removed: '{color}{stat} &7modifier was removed from your item'
+      list:
+        header: '&fArmor modifiers found:'
+        entry: '  {color}{stat}&f - {value}'
+      removeall:
+        removed: '&7All armor modifiers have been removed from your item'
+    multiplier:
+      add:
+        added: '&b{target} &7multiplier with value &b{value} &7was added to your item'
+        already_exists: '&eAn armor multiplier with target &b{target} &ealready exists on your armor! Remove it first with /sk armor multiplier remove'
+        skill_lore: '&7When worn: &b+{value}% {skill} XP'
+        skill_lore_subtract: '&7When worn: &b-{value}% {skill} XP'
+        global_lore: '&7When worn: &9+{value}% Skill XP'
+        global_lore_subtract: '&7When worn: &9-{value}% Skill XP'
+      remove:
+        does_not_exist: '&eYour item does not have a &b{target} &earmor multiplier!'
+        removed: '&b{target} &7armor multiplier was removed from your item'
+      list:
+        header: '&fArmor multipliers found:'
+        entry: '  &b{target}&f - {value}'
+      removeall:
+        removed: '&7All armor multipliers have been removed from your item'
+    requirement:
+      add:
+        added: '&3{skill}&7 armor requirement with level &b{level}&7 was added to your item'
+        already_exists: '&eItem already has a &3{skill}&e armor requirement! Remove it first with &6/sk armor requirement remove'
+        lore: '&cRequires &3{skill} {level}'
+      remove:
+        does_not_exist: '&eYour item does not have a &3{skill}&e armor requirement!'
+        removed: '&3{skill}&7 armor requirement was removed from your item'
+      list:
+        header: '&fArmor requirements found:'
+        entry: '  &3{skill} &f- &b{level}'
+      removeall:
+        removed: '&7All armor requirements have been removed from your item'
+      equip: '&eYou do not meet the requirements to equip this item: {requirements}'
+      entry: '&b{skill} {level}&7, '
+  backup:
+    load:
+      confirm: '&cLoading a backup will revert all skill data of players. This action is permanent and cannot be undone. You may want to save a backup before loading one. Type the command again to confirm this action'
+      loading: '&fLoading backup...'
+      loaded: '&aSuccessfully loaded backup'
+      error: '&cError loading backup: {error}'
+      must_be_yaml: '&eFile must be a .yml file!'
+      file_not_found: '&eA backup of this file name does not exist in the backups folder!'
+    save:
+      saving: '&fSaving backup...'
+      saved: '&fBacked up {type} data as {file}'
+      error: '&cError backing up {type} data! See error in console/below for details'
+  claimitems:
+    no_items: '&eYou have no items to claim'
+  item:
+    give:
+      sender: '&fGave &b{amount}x {key} &fto {player}'
+      receiver: '&fYou were given &b{amount}x {key}'
+    modifier:
+      add:
+        added: '{color}{stat} &7modifier with level &b{value} &7was added to your item'
+        already_exists: '&eAn item modifier with stat {color}{stat} &ealready exists on your armor! Remove it first with /sk item modifier remove'
+        lore: '&7{stat}: {color}+{value}'
+        lore_subtract: '&7{stat}: {color}-{value}'
+      remove:
+        does_not_exist: '&eYour item does not have a {color}{stat} &emodifier!'
+        removed: '{color}{stat} &7modifier was removed from your item'
+      list:
+        header: '&fItem modifiers found:'
+        entry: '  {color}{stat}&f - {value}'
+      removeall:
+        removed: '&7All item modifiers have been removed from your item'
+    multiplier:
+      add:
+        added: '&b{target} &7multiplier with value &b{value} &7was added to your item'
+        already_exists: '&eAn item multiplier with target &b{target} &ealready exists on your item! Remove it first with /sk item multiplier remove'
+        skill_lore: '&7When held: &b+{value}% {skill} XP'
+        skill_lore_subtract: '&7When held: &b-{value}% {skill} XP'
+        global_lore: '&7When held: &9+{value}% Skill XP'
+        global_lore_subtract: '&7When held: &9-{value}% Skill XP'
+      remove:
+        does_not_exist: '&eYour item does not have a &b{target} &eitem multiplier!'
+        removed: '&b{target} &7item multiplier was removed from your item'
+      list:
+        header: '&fItem multipliers found:'
+        entry: '  &b{target}&f - {value}'
+      removeall:
+        removed: '&7All item multipliers have been removed from your item'
+    register:
+      registered: '&fRegistered held item to key {key}'
+      already_registered: '&eThere is already an item registered to key &f{key}&e, use &f/skills item unregister &eto unregister it first'
+      no_spaces: '&eItem key cannot contain spaces!'
+    requirement:
+      add:
+        added: '&3{skill}&7 item requirement with level &b{level}&7 was added to your item'
+        already_exists: '&eItem already has a &3{skill}&e item requirement! Remove it first with &6/sk item requirement remove'
+        lore: '&cRequires &3{skill} {level}'
+      remove:
+        does_not_exist: '&eYour item does not have a &3{skill}&e item requirement!'
+        removed: '&3{skill}&7 item requirement was removed from your item'
+      list:
+        header: '&fItem requirements found:'
+        entry: '  &3{skill} &f- &b{level}'
+      removeall:
+        removed: '&7All item requirements have been removed from your item'
+      use: '&eYou do not meet the requirements to use this item: {requirements}'
+      entry: '&b{skill} {level}&7, '
+    unregister:
+      unregistered: '&fUnregistered item with key {key}'
+      not_registered: '&eThere is no item registered with key {key}'
+  lang:
+    set: '&7Language set to &b{lang}'
+    not_found: '&eLanguage not found!'
+  mana:
+    display: '&fYour {mana_unit}: &b{current}/{max}'
+    display_other: '&f{mana_unit} of {player}: &b{current}/{max}'
+    add: '&7Added &b{amount} {mana_unit} &7to player &6{player}'
+    remove: '&7Removed &b{amount} {mana_unit} &7from player &6{player}'
+    set: '&7Set player &6{player} &7to &b{amount} {mana_unit}'
+    at_least_zero: '&e{mana_unit} must be at least zero!'
+    console_specify_player: '&eConsole must specify a player!'
+  modifier:
+    add:
+      added: '{color}{stat} &7modifier level &b{value} &7with name &f{name} &7added to player &6{player}'
+      already_exists: '&eModifier with name {name} already exists on player &6{player}&e! Remove it with &6/sk modifier remove {player} {name}'
+    remove:
+      not_found: '&eModifier {name} not found for player &6{player}'
+      removed: '&7Modifier &f{name} &7removed from player &6{player}'
+    list:
+      all_stats_header: '&7Stat modifiers for player &6{player}:'
+      all_stats_entry: '  &f{name} - {color}{stat} &fLevel &6{value}'
+      one_stat_header: '&7Stat modifiers ({color}{stat}&7) for player &6{player}:'
+      one_stat_entry: '  &f{name} - {color}{stat} &fLevel &6{value}'
+      players_only: '&eOnly players can list their own modifiers! Try specifying a player'
+    removeall:
+      removed_all_stats: '&7Removed &b{num} &7stat modifiers from player &6{player}'
+      removed_one_stat: '&7Removed &b{num} {color}{stat} &7modifiers from player &6{player}'
+      players_only: '&eOnly players can remove their own modifiers! Try specifying a player'
+  multiplier:
+    global: Global
+    list: '&fGlobal XP multiplier for &6{player}&f: &b{multiplier}x / +{percent}%'
+    skill_entry: '&b{skill} &fXP multiplier: &b{multiplier}x / +{percent}%'
+    players_only: '&eOnly players can list their own multiplier! Specify a player!'
+  rank:
+    header: '&b&lYour Skill Rankings'
+    power: '&ePower &7(All Skills): &f#{rank} of {total}'
+    entry: '&b{skill}&7: &f#{rank} of {total}'
+  reload: '&aConfig reloaded!'
+  save:
+    already_saving: '&eData is already saving!'
+    mysql_not_enabled: '&eMySQL was not enabled at server startup, saving to file instead!'
+    saved: '&aSkill data saved!'
+  skill:
+    reset:
+      reset_all: '&7All Skills set to level &b1 &7for player &6{player}'
+      reset_skill: '&7Skill &b{skill} &7set to level &b1 &7for player &6{player}'
+    setall:
+      at_least_one: '&eLevel must be at least 1!'
+      set: '&7All skills set to level &b{level} &7for player &6{player}'
+    setlevel:
+      at_least_one: '&eLevel must be at least 1!'
+      set: '&7Skill &b{skill} &7set to level &b{level} &7for player &6{player}'
+  toggle:
+    enabled: '&aYour skills action bar has been enabled'
+    disabled: '&cYour skills action bar has been disabled'
+    not_enabled: '&eSkills action bar is not enabled on this server!'
+  top:
+    power_entry: '&f{rank}. &b{player} &f- {level}'
+    power_header: '&f--==&b&lAll Skills Leaderboard&f==--'
+    power_header_page: '&f--==&b&lAll Skills Leaderboard &f(Page {page})==--'
+    skill_header: '&f--==&b&l{skill} Leaderboard&f==--'
+    skill_header_page: '&f--==&b&l{skill} Leaderboard &f(Page {page})==--'
+    skill_entry: '&f{rank}. &b{player} &f- {level}'
+    average_header: '&f--==&b&lSkill Average Leaderboard&f==--'
+    average_header_page: '&f--==&b&lSkill Average Leaderboard &f(Page {page})==--'
+    average_entry: '&f{rank}. &b{player} &f- {level}'
+    usage: '&eUsage: &a/sk top &f<page> &7or &a/sk top &f[skill] <page>'
+  updateleaderboards:
+    already_updating: '&eLeaderboard is already updating!'
+    updated: '&aLeaderboard updated!'
+  version: '&fYou are on Aurelium Skills version &b{current_version}&f. The latest version is &b{latest_version}'
+  xp:
+    add: '&7Added &b{amount} {skill} &7XP to player &7{player}'
+    set: '&7Set &b{skill} &7XP for player &7{player} &7to {amount}'
+    remove: '&7Removed &b{amount} {skill} &7XP from player &6{player}'
+  unknown_skill: '&eUnknown skill!'
+  no_profile: '&ePlayer does not have a skills profile!'
+leveler:
+  title: '&a{skill} Level Up'
+  subtitle: '&6{old} ➜ {new}'
+  level_up: '&3&m----------------------------------------\n&r &3Skill Level Up! &b&l{skill} &8{old}➜&3&l{new}\n \n &bRewards:{stat_level}{ability_unlock}{ability_level_up}{mana_ability_unlock}{mana_ability_level_up}{money_reward}\n&3&m----------------------------------------'
+  stat_level: '\n  {color}+{num}{symbol} {stat}'
+  ability_unlock: '\n  &aAbility Unlock! &6&l{ability} &7has been unlocked'
+  ability_level_up: '\n  &aAbility Level Up! &6&l{ability} &7is now level &6{level}'
+  mana_ability_unlock: '\n  &dMana Ability Unlock! &9&l{mana_ability} &7has been unlocked'
+  mana_ability_level_up: '\n  &dMana Ability Level Up! &9&l{mana_ability} &7is now level &6{level}'
+  money_reward: '\n  &a${amount}'
+  unclaimed_item: '&cYou have unclaimed items because your inventory was full, use &e/skills claimitems &cto claim them'
+menus:
+  common:
+    close: '&cClose'
+    level: '&7Level: &e{level}'
+    progress_to_level: '&7Progress to Level {level}: &e{percent}%\n  &7{current_xp}/{level_xp} {xp_unit}'
+    max_level: '&6MAX LEVEL'
+    ability_levels: '&7Ability Levels:\n  {ability_1}\n  {ability_2}\n  {ability_3}\n  {ability_4}\n  {ability_5}\n '
+    ability_level_entry: '&6{ability} {level} &8({info})'
+    ability_level_entry_locked: '&8&m{ability}'
+    stats_leveled: '\n&7Stats Leveled: {stats}\n '
+    mana_ability: '\n&d&lMana Ability &9{mana_ability} {level}\n &7Duration: &a{duration}s &7Mana Cost: &b{mana_cost} &7Cooldown: &e{cooldown}s\n '
+  skills_menu:
+    skills_menu_title: Your Skills
+    your_skills: '&bYour Skills - &6{player}'
+    your_skills_desc: '&7Upgrade Skills by doing various tasks\n&7to unlock valuable stat boosts,\n&7abilities, and more!'
+    your_skills_hover: '&eHover over a Skill for more information!'
+    your_skills_click: '&eClick on a Skill to view level progression!'
+    skill_click: '&eClick to view Level Progression!'
+    skill_locked: '&cYou do no have permission to view this skill!'
+  level_progression_menu:
+    level_progression_menu_title: '{skill} Levels - Page {page}'
+    your_ranking: '&eYour Skill Ranking'
+    rank_out_of: '&fYou are ranked &6{rank}&f out of {total} players'
+    rank_percent: '&fYou are in the top &6{percent}%&f of players'
+    back: '&aGo Back'
+    back_click: '&7Back to Skills Menu'
+    next_page: '&6Next Page'
+    next_page_click: '&eClick to go to next page'
+    previous_page: '&6Previous Page'
+    previous_page_click: '&eClick to go to previous page'
+    level_unlocked: '&aLevel {level}'
+    level_in_progress: '&eLevel {level}'
+    level_locked: '&cLevel {level}'
+    level_number: '&7Level &f{level}'
+    unlocked: '&aUNLOCKED'
+    in_progress: '&eIN PROGRESS'
+    locked: '&cLOCKED'
+    rewards: '&7Rewards:{rewards}'
+    rewards_entry: '\n  {color}+{num} {symbol} {stat}'
+    money_reward: '\n  &a${amount}'
+    ability_unlock: '\n&6{ability} &a&lAbility Unlock\n&7  {desc}\n '
+    ability_level: '\n&6{ability} {level}\n&7  {desc}\n '
+    mana_ability_unlock: '\n&9{mana_ability} &d&lMana Ability Unlock\n&7  {desc}\n '
+    mana_ability_level: '\n&9{mana_ability} {level}\n&7  {desc}\n '
+    progress: '&7Progress: &e{percent}%\n  &7{current_xp}/{level_xp} {xp_unit}'
+  stats_menu:
+    stats_menu_title: Your Stats
+    player_stat_entry: ' {color}{symbol} {stat} &f{level}'
+    skills: '\n&7Skills: &f{skills}'
+    your_level: '&7Your Level: {color}{level}'
+    attack_damage: '&4+{value}% Attack Damage'
+    hp: '&c+{value} ❤'
+    saturated_regen: '&6+{value} Saturated Regen'
+    full_hunger_regen: '&6+{value} Full Hunger Regen'
+    almost_full_hunger_regen: '&6+{value} Almost Full Hunger Regen'
+    mana_regen: '&b+{value} Mana/s Regen'
+    luck: '&2+{value} Luck'
+    double_drop_chance: '&2Double Drop Chance: {value}%'
+    xp_gain: '&9+{value}% {xp_unit} Gain'
+    anvil_cost_reduction: '&9Anvil Cost Reduction: {value}%'
+    max_mana: '&9Max Mana: {value}'
+    incoming_damage: '&5-{value}% Incoming Damage'
+  unclaimed_items:
+    unclaimed_items_title: 'Claim Items'
+    inventory_full: '&eYou do not have enough space in your inventory to claim that item'
+    click_to_claim: '&eClick to claim!'
+mana_abilities:
+  replenish:
+    name: Replenish
+    desc: '&7Replants crops automatically for \n&7  {value} seconds. &e[Right click hoe and\n&e  break crop to activate]'
+    raise: '&7You raise your hoe'
+    lower: '&7You lower your hoe'
+    start: '&6Replenish Activated! &7(-{mana} {mana_unit})'
+    end: '&7Replenish has worn off'
+  treecapitator:
+    name: Treecapitator
+    desc: '&7Breaks entire trees instantly for \n&7  {value} seconds. &e[Right click axe and\n&e  break log to activate]'
+    raise: '&7You raise your axe'
+    lower: '&7You lower your axe'
+    start: '&6Treecapitator Activated! &7(-{mana} {mana_unit})'
+    end: '&7Treecapitator has worn off'
+  speed_mine:
+    name: Speed Mine
+    desc: '&7Gives Haste {haste_level} for {value} seconds.\n&e  [Right click pickaxe and mine\n&e  block to activate]'
+    raise: '&7You raise your pickaxe'
+    lower: '&7You lower your pickaxe'
+    start: '&6Speed Mine Activated! &7(-{mana} {mana_unit})'
+    end: '&7Speed Mine has worn off'
+  absorption:
+    name: Absorption
+    desc: 'Incoming damage will decrease mana\n&7  by 2x Minecraft damage instead of your\n&7  health for {value} seconds. Mana will not\n&7  regenerate while Absorption is active.\n  &e[Left click shield and take damage to activate]'
+    raise: '&7You raise your shield'
+    lower: '&7You lower your shield'
+    start: '&6Absorption Activated! &7(-{mana} {mana_unit})'
+    end: '&7Absorption has worn off'
+  terraform:
+    name: Terraform
+    desc: 'Break blocks instantly in a 4 block radius\n&7  in the same layer when digging for {value} seconds. You\n&7  must use a shovel and extra blocks broken must be\n&7  the same type and in a single connected vein.\n&7  &e[Right click shovel and dig block to activate]'
+    raise: '&7You raise your shovel'
+    lower: '&7You lower your shovel'
+    start: '&6Terraform Activated! &7(-{mana} {mana_unit})'
+    end: '&7Terraform has worn off'
+  sharp_hook:
+    name: Sharp Hook
+    desc: 'Tee {value} damage to a hooked entity\n&7  when left clicking with a fishing rod'
+    use: '&6Used Sharp Hook! &7(-{mana} {mana_unit})'
+    menu: '\n&d&lMana Ability &9{mana_ability} {level}\n &7Damage: &c{value} &7Mana Cost: &b{mana_cost} &7Cooldown: &e{cooldown}s\n '
+  charged_shot:
+    name: Charged Shot
+    desc: 'Arrows you shoot will deal more damage\n&7  based on how far the bow was pulled back,\n&7  consuming mana in the process. Does {value}% more\n&7  damage per mana consumed. &e[Left click\n&e  a bow to toggle charged shot mode]'
+    enable: '&7Charged shot mode is now enabled'
+    disable: '&7Charged shot mode is now disabled'
+    shoot: '&6Used Charged Shot! &d+{percent}% DMG &7(-{mana} {mana_unit})'
+    menu: '\n&d&lMana Ability &9{mana_ability} {level}\n &7Damage: &c+{value}% / Mana &7Max Mana Cost: &b{mana_cost}\n '
+  lightning_blade:
+    name: Lightning Blade
+    desc: Increases attack speed by {value}% for {duration} seconds.\n&e  [Right click sword and attack mob to activate]
+    raise: '&7You ready your sword'
+    lower: '&7You lower your sword'
+    start: '&6Lightning Blade Activated! &7(-{mana} {mana_unit})'
+    end: '&7Lightning Blade has worn off'
+    menu: '\n&d&lMana Ability &9{mana_ability} {level}\n &7Attack Speed: &c+{value}% &7Duration: &a{duration}s\n &7Mana Cost: &b{mana_cost} &7Cooldown: &e{cooldown}s\n '
+  not_ready: '&cAbility not ready! &7({cooldown}s)'
+  not_enough_mana: '&eNot enough mana! &7({mana} {mana_unit} required, you have {current_mana}/{max_mana})'
+rewards:
+  item:
+    default_menu_message: '\n  {display_name}'
+    default_menu_message_multiple: '\n  {display_name} {amount}x'
+    default_chat_message: '\n  {display_name}'
+    default_chat_message_multiple: '\n  {display_name} {amount}x'
+skills:
+  farming:
+    name: Farming
+    desc: '&7Harvest crops to earn Farming {xp_unit}'
+  foraging:
+    name: Foraging
+    desc: '&7Cut trees to earn Foraging {xp_unit}'
+  mining:
+    name: Mining
+    desc: '&7Mine stone and ores to earn Mining {xp_unit}'
+  fishing:
+    name: Fishing
+    desc: '&7Catch fish to earn Fishing {xp_unit}'
+  excavation:
+    name: Excavation
+    desc: '&7Dig with a shovel to earn Excavation {xp_unit}'
+  archery:
+    name: Archery
+    desc: '&7Shoot mobs and players with a bow to\n&7earn Archery {xp_unit}'
+  defense:
+    name: Defense
+    desc: '&7Take damage from entities to earn Defense {xp_unit}'
+  fighting:
+    name: Fighting
+    desc: '&7Fight mobs with melee weapons to earn\n&7Fighting {xp_unit}'
+  endurance:
+    name: Endurance
+    desc: '&7Walk and run to earn Endurance {xp_unit}'
+  agility:
+    name: Agility
+    desc: '&7Jump and take fall damage to earn\n&7Agility {xp_unit}'
+  alchemy:
+    name: Alchemy
+    desc: '&7Brew potions to earn Alchemy {xp_unit}'
+  enchanting:
+    name: Enchanting
+    desc: '&7Enchant items and books to earn\n&7Enchanting {xp_unit}'
+  sorcery:
+    name: Sorcery
+    desc: '&7Use mana abilities to earn Sorcery {xp_unit}'
+  healing:
+    name: Healing
+    desc: '&7Drink and splash potions to earn\n&7Healing {xp_unit}'
+  forging:
+    name: Forging
+    desc: '&7Combine and apply books in an anvil to\n&7earn Forging {xp_unit}'
+stats:
+  strength:
+    name: Strength
+    desc: '&7Strength increases your attack damage\n&7with various different weapons'
+    color: '&4'
+    symbol: '➽'
+  health:
+    name: Health
+    desc: '&7Health increases the amount of {hp_unit} you\n&7have, allowing you to last longer in\n&7fights'
+    color: '&c'
+    symbol: '❤'
+  regeneration:
+    name: Regeneration
+    desc: '&7Regeneration increases how fast you\n&7recover both health and mana'
+    color: '&6'
+    symbol: '❥'
+  luck:
+    name: Luck
+    desc: '&7Luck increases your chances of getting\n&7Harvinainen Saalis from mobs, fishing, and more'
+    color: '&2'
+    symbol: '☘'
+  wisdom:
+    name: Wisdom
+    desc: '&7Wisdom increases your max mana, increases\n&7experience gain, and decreases anvil costs'
+    color: '&9'
+    symbol: '✿'
+  toughness:
+    name: Toughness
+    desc: '&7Toughness increases the amount of\n&7damage reduced from enemy attacks'
+    color: '&5'
+    symbol: '✦'
+units:
+  mana: Mana
+  hp: HP
+  xp: XP
+file_version: 24
